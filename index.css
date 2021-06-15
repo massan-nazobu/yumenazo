@@ -197,7 +197,7 @@ ul.contents {
 }
 
 .contents li:not(:first-of-type) {
-  margin-top: 300px;
+  margin-top: 330px;
 }
 
 .contents li:nth-of-type(odd) .contentsText {
@@ -263,7 +263,7 @@ letter-spacing: 0.3em;
 div.main3 {
   background: #ffffff;
   width: 100%;
-  margin-top: 90%;
+  margin-top: 100%;
   }
 
 .rinen {
@@ -354,7 +354,7 @@ ul.contents2 {
 background-color: #000;
 margin: auto;
 text-align: center;
-max-width: 70%;
+max-width: 90%;
 opacity: 0;
 transition: 2s;
 }
@@ -396,6 +396,10 @@ font-weight: bold;
   color: #000;
   border: #000 2px solid;
   font-weight: bold;
+}
+
+a.line {
+  text-decoration: none;
 }
 
 
