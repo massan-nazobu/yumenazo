@@ -1,0 +1,186 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HAPPY DREAM</title>
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="index.css"　type="text/css" media="all">
+	 <script src="index.js" defer></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+  
+  <body>
+  <div class="top">
+	  <p class="campany">HAPPY DREAM</p>
+	</div>
+	
+	<div class="gawa">
+<div class="slide" id="makeImg">
+	<img src="image/kaisyaa.jpeg" alt="会社イメージ" class="slide">
+	<img src="image/kaisyab.jpeg" alt="会社イメージ" class="slide">
+	<img src="image/kaisyac.jpeg" alt="会社イメージ" class="slide">
+	<img src="image/kaisyad.jpeg" alt="会社イメージ" class="slide">
+	</div>
+	</div>
+
+<div class="main1">
+	<p class="title">貴方を「夢」の世界へ</p>
+</div>
+
+<img src="image/night.jpg" alt="夜の街" class="night">
+
+<div class="main2">
+	<div class="chousei">
+	<p class="bun2">　</p>
+	<p class="bun">「夢」とは抽象的なものを指している</p>
+	<p class="bun2">訳ではありません。</p>
+	<p class="bun2">「夢」とは貴方が必ず見るあの夢。</p>
+	<p class="bun2">夜に必ず訪れる、その時間。</p>
+	<p class="bun2">「夢は自分で決められない」</p>
+	<p class="bun2">そんなのはもう過去のお話。</p>
+	<p class="bun2">我々は貴方を「本当の夢」へと</p>
+	<p class="bun2">誘います。</p>
+	<p class="bun2">　</p>
+	</div>
+</div>
+
+<main>
+        <ul class="contents">
+            <li class="animationTarget">
+            	<img src="image/syain1.jpg" alt="社員">
+                <div class="contentsText">
+                    <h2>快適な夢のご提案</h2>
+                    <p>
+                        シチュエーション、登場人物、シナリオ...<br>
+						夢は、言うなれば貴方が主人公の「ドラマ」です。<br>
+						我々は貴方が最高の眠りにつくために、快適な夢をプランニングさせていただきます。
+                    </p>
+                </div>
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/syain2.jpg" alt="社員">
+                <div class="contentsText">
+                    <h2>高く、大きな志</h2>
+                    <p>
+                        我々は、サービス向上のための努力を惜しみません。<br>
+						我々は、お客様とのつながりを忘れません。<br>
+						常に全社員の志を高く設定することで、いつでも最高のサービスを提供しております。
+                    </p>
+                </div>
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/syain3.jpg" alt="社員">
+                <div class="contentsText">
+                    <h2>安心と安全を保障</h2>
+                    <p>
+                        もし、トラブルがあっても心配ありません。<br>
+						我々は100人体制での電話サポートを毎日行っています。<br>
+						深夜、休日でもAIでのサポートを準備しているので、悪夢に悩まされることはもうありません。
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+
+
+
+<div class="main3">
+	<div class="rinen">
+		<p class="rinen">企業理念</p>
+	</div>
+	<div class="rinenimage">
+		<img src="image/rinen.jpeg" alt="企業理念「夢限」">
+		<p class="rinenword">
+			夢は、無限大だ。<br>
+			私たちは夢の可能性を信じています。<br>
+			限りなく広がる夢の世界に<br>
+			お客様をご案内する。<br>
+			そして無限に広がる世界を<br>
+			体験していただく。<br>
+			お客様の快適な夢旅行が<br>
+			我々の目指すものです。<br>
+		</p>　
+	</div>
+
+	<p>　</p>
+
+	<div class="rinen">
+		<p class="rinen">顧客の声</p>
+	</div>
+
+	<main>
+        <ul class="contents2">
+            <li class="animationTarget">
+            	<img src="image/syain1.jpg" alt="社員">
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/syain2.jpg" alt="社員">
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/syain3.jpg" alt="社員">
+            </li>
+
+        </ul>
+	</main>
+	
+	<div class="customer">
+		<p class="customerword">カスタマーサービス</p>
+	</div>
+
+	<div class="rinenimage">
+		<p class="serviceword">
+			 <br>
+			株式会社HAPPY DREAMでは、<br>
+			お客様にいつでも対応すべく<br>
+			AIによるカスタマーサポートを<br>
+			行っております。<br>
+			以下のボタンから、<br>
+			サポートサービスを登録できます。
+		</p>　
+	</div>
+
+	<a href="https://lin.ee/FNHbLne">
+	<div class="button">
+		<p>登録</p>
+	</div>
+	</a>
+
+	<p>　</p>
+
+	</p>
+	
+</div>
+
+  
+  <div class="bottom">
+	  <p class="bottom">copyright<small>&copy; 2021 HAPPY DREAM created byCider</small></p>
+  </div>
+</div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
