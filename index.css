@@ -245,7 +245,7 @@ ul.contents {
   line-height: 3;
   max-width: 80%;
   background: #fff;
-  font-size: 10px;
+  font-size: 12px;
   padding: 10px;
   margin-top: 5px;
   border-radius: 5px;
@@ -312,7 +312,7 @@ color: #000;
 }
 
 .rinenimage.show2 {
-  width: 70%;
+  width: 90%;
   opacity: 1;
   transform: none;
  margin: auto;
