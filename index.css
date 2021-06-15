@@ -121,7 +121,7 @@ animation-name: animation-sample; /*--アニメーション名--*/
 
 p.bun {
 color: #ffffff;
-font-size: 15px;
+font-size: 12px;
 text-align: left;
 font-family:'YuGothic',sans-serif;
 letter-spacing: 0.5em;
@@ -131,7 +131,7 @@ line-height: 2;
 
 p.bun2 {
 color: #ffffff;
-font-size: 10px;
+font-size: 12px;
 text-align: left;
 font-family:'YuGothic',sans-serif;
 letter-spacing: 0.5em;
