@@ -388,12 +388,6 @@ font-weight: bold;
   transform: none;
 }
 
-.button:hover {
-  background: #fff;
-  color: #000;
-  border: #000 2px solid;
-}
-
 a.line {
   text-decoration: none;
 }
