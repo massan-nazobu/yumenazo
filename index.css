@@ -390,12 +390,8 @@ font-weight: bold;
 
 .button:hover {
   background: #fff;
-  width: 30%;
-  text-align: center;
-  margin: auto;
   color: #000;
   border: #000 2px solid;
-  font-weight: bold;
 }
 
 a.line {
@@ -404,6 +400,6 @@ a.line {
 
 a.line:visited {
   text-decoration: none;
-color: #ffffff;
+color: #fff;
 }
 
