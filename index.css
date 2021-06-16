@@ -388,7 +388,7 @@ font-weight: bold;
   transform: none;
 }
 
-.button:action {
+.button:hover {
   background: #fff;
   width: 30%;
   text-align: center;
@@ -402,7 +402,8 @@ a.line {
   text-decoration: none;
 }
 
-p.line {
+a.line:visited {
+  text-decoration: none;
 	color: #ffffff;
 }
 
