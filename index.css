@@ -108,7 +108,6 @@ font-weight: bold;
 animation-name: animation-sample; /*--アニメーション名--*/
 	animation-duration: 2s;　/*--時間--*/
   animation-fill-mode: forwards;
-animation-delay: -2s;
 }
 
 @keyframes animation-sample {
