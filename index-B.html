@@ -1,0 +1,156 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>HAPPY DREAM for staff</title>
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="index-B.css"　type="text/css" media="all">
+	 <script src="index.js" defer></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+  
+  <body>
+  <div class="top">
+	  <p class="campany">HAPPY DREAM</p>
+	</div>
+	
+	<div class="gawa">
+<div class="slide" id="makeImg">
+	<img src="image/kaisyaa.jpeg" alt="会社イメージ" class="slide">
+	<img src="image/kaisyab.jpeg" alt="会社イメージ" class="slide">
+	<img src="image/kaisyac.jpeg" alt="会社イメージ" class="slide">
+	<img src="image/kaisyad.jpeg" alt="会社イメージ" class="slide">
+	</div>
+	</div>
+
+<div class="main1">
+	<p class="title">貴方を「夢」の世界へ</p>
+</div>
+
+<img src="image/night.jpg" alt="夜の街" class="night">
+
+<div class="main2">
+	<div class="chousei">
+	<p class="bun2">　</p>
+	<p class="bun">「夢」とは皆が必ず見るもの。</p>
+	<p class="bun2">避けられない運命。</p>
+	<p class="bun2">我々は、人類の運命を握る存在。</p>
+	<p class="bun2">人々に希望を見せるも絶望を見せるも</p>
+	<p class="bun2">我々次第。</p>
+	<p class="bun2">我々は、人々の夢を支配し、</p>
+	<p class="bun2">人々を新たな世界へ導くのです。</p>
+	<p class="bun2">そして、我々が真の神となるのです。</p>
+	<p class="bun2">　</p>
+	</div>
+</div>
+
+<main>
+        <ul class="contents">
+            <li class="animationTarget">
+            	<img src="image/syain1.jpg" alt="社員">
+                <div class="contentsText">
+                    <h2>必死を超えた必死</h2>
+                    <p>
+                        お客様は神様です。<br>
+						全てのお客様の満足を得るために、<br>
+						甘えや妥協を一切捨て、必死を超える必死さで働きましょう。
+                    </p>
+                </div>
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/syain2.jpg" alt="社員">
+                <div class="contentsText">
+                    <h2>頂きはさらに高い</h2>
+                    <p>
+                        我々の目指すべき目標はこの世界にはありません。<br>
+						この世の全てを支配したその先にある高み、<br>
+						わが社が神となる世界戦、そこにわが社が到達すべき点があります。
+                    </p>
+                </div>
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/syain3.jpg" alt="社員">
+                <div class="contentsText">
+                    <h2>安心と安全を保障</h2>
+                    <p>
+                        もし、トラブルがあっても心配ありません。<br>
+						我々は100人体制での電話サポートを毎日行っています。<br>
+						深夜、休日でもAIでのサポートを準備しているので、悪夢に悩まされることはもうありません。
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+
+
+
+<div class="main3">
+	<div class="rinen">
+		<p class="rinen">企業遍歴</p>
+	</div>
+	<div class="rinenimage">
+		<img src="image/henreki.jpeg" alt="企業遍歴">
+	</div>
+
+	<p>　</p>
+
+	<div class="rinen">
+		<p class="rinen">顧客の声</p>
+	</div>
+
+	<main>
+        <ul class="contents2">
+            <li class="animationTarget">
+            	<img src="image/review1.jpg" alt="顧客の声">
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/review2.jpg" alt="顧客の声">
+            </li>
+
+            <li class="animationTarget">
+                <img src="image/review3.jpg" alt="顧客の声">
+            </li>
+
+        </ul>
+		
+	</main>
+
+	<p> </p>
+
+
+	</p>
+	
+</div>
+
+  
+  <div class="bottom">
+	  <p class="bottom">copyright<small>&copy; 2021 HAPPY DREAM created byCider</small></p>
+  </div>
+</div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
